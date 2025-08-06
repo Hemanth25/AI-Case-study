@@ -60,7 +60,7 @@ def extract_text_from_pdf(file_path):
     return text
 
 def extract_text_from_image(image_path):
-    pytesseract.pytesseract.tesseract_cmd = "C:/Users/hemanthn/AppData/Local/Programs/Tesseract-OCR/tesseract.exe"
+    pytesseract.pytesseract.tesseract_cmd = "tesseract.exe"
     image = Image.open(image_path)
     return pytesseract.image_to_string(image)
 
@@ -137,3 +137,4 @@ if user_query:
 for role, message in st.session_state["messages"]:
     with st.chat_message(role):
         st.markdown(message)
+
