@@ -45,7 +45,7 @@ pytesseract.pytesseract.tesseract_cmd = "tesseract.exe path"
 
 📊 Data Requirements
 Place your input CSV file at:
-C:/Users/hemanthn/OneDrive - Nagarro/Documents/Projects/Abu/Data/Input.csv
+"Input.csv"
 
 
 The CSV should include the following columns:
@@ -66,7 +66,7 @@ The CSV should include the following columns:
 - Chat Interface: Users interact via Streamlit to ask questions or upload files.
 
 💬 Usage
-Run the chatbot:
+Run the below command in CMD:
 streamlit run your_script.py
 
 
@@ -85,3 +85,4 @@ Upload a document and ask questions like:
 📂 File Upload Support
 - Image (.png, .jpg)
 Uploaded files are processed and embedded for semantic search
+
