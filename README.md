@@ -67,7 +67,7 @@ The CSV should include the following columns:
 
 💬 Usage
 Run the below command in CMD:
-streamlit run your_script.py
+streamlit run app.py
 
 
 Upload a document and ask questions like:
@@ -85,4 +85,5 @@ Upload a document and ask questions like:
 📂 File Upload Support
 - Image (.png, .jpg)
 Uploaded files are processed and embedded for semantic search
+
 
