@@ -37,8 +37,8 @@ pip install -r requirements.txt
 Make sure you have Tesseract installed and configured: Download Tesseract OCR
 
 3. Set Your OpenAI API Key
-Edit the script or set it as an environment variable:
-os.environ["OPENAI_API_KEY"] = "key"
+Create ".env" file in the repository and save the key as shown below:
+"OPENAI_API_KEY" = "key"
 
 4. Set Your "tesseract.exe" path (if not installed, please install locally)
 pytesseract.pytesseract.tesseract_cmd = "tesseract.exe path"
@@ -85,5 +85,6 @@ Upload a document and ask questions like:
 📂 File Upload Support
 - Image (.png, .jpg)
 Uploaded files are processed and embedded for semantic search
+
 
 
